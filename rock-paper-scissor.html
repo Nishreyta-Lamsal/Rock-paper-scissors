@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Rock Paper Scissors</title>
+    
+       <link rel="stylesheet" href="rock-paper-scissor.css">
+
+    </head>    
+        <body>
+            <p class="title">
+                Rock Paper Scissors
+            </p>
+
+            <button class="rock" onclick = "
+                //hamle return gareko 'computerMove' chai store huncha 'computerMove' variable ma. 
+                //We do this kinabhanda function bhitra ko variable is only accessible inside the function ani hamlai hya chaiyeko cha tyo.
+                 playGame('rock');
+                ">
+                <img class = "rock-image" src="rock-emoji.png">
+            </button>
+
+            <button class="paper js-paper-button">
+                <img class="paper-image" src="paper-emoji.png">
+            </button>
+
+            <button class="scissors" onclick = "
+                playGame('scissors');
+
+                ">
+                <img class="scissors-image" src="scissors-emoji.png">
+            </button>
+
+            <p class="js-result"> </p>
+
+            <p class="js-moves"> 
+                
+            </p>
+
+            <p class="js-score"> </p>
+
+            <button class="reset-button"
+            >Reset Score</button>
+
+            <button class="auto-play-button"> 
+                Auto Play
+            </button>
+
+            <p class = "js-reset-confirmation" > </p>
+
+        
+        <script src="rock-paper-scissor.js"> </script>
+        </body>
+</html>
